@@ -1,4 +1,4 @@
-# UTS PEMWEB
+# UAS PEMWEB
 ### Oleh
 ## 20220803069 - Badrus Salam
 
