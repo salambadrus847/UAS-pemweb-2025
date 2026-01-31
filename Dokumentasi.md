@@ -77,7 +77,7 @@ terlampir file BRD berdasarkan SLR dengan nama file BRD.pdf
 ```
 1. cd root
 2. cd boilerplate
-3. ./start.sh uts-pemweb
+3. ./start.sh uas-pemweb
 4. cd src
 5. code .
 6. template website dengan ide saya diambil dari : https://themewagon.com/themes/business/
@@ -102,3 +102,18 @@ terlampir file BRD berdasarkan SLR dengan nama file BRD.pdf
 25. touch footer.blade.php
 26. touch script.blade.php
 27. cd ../../../routes
+28. code web.php
+29. Menambahkan routing halaman utama dan section website pada file web.php
+30. cd ..
+31. php artisan make:controller HeroesController
+32. php artisan make:controller ServicesController
+33. php artisan make:controller AboutController
+34. php artisan make:controller PricingController
+35. php artisan make:controller CtaController
+36. php artisan make:controller LatestPostController
+37. cd database
+38. cd migrations
+39. cd ../seeders
+40. cd ../../app/Models
+41. cd ../Filament/Admin/Resources
+42. cd ../../../../
